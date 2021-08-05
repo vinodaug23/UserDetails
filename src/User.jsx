@@ -14,7 +14,7 @@ const User = () => {
     <div>
       {data.length > 0 &&
         data.map((val, index) => {
-          return <UserDetails userInfo={val} />;
+          return <UserDetails key={index} userInfo={val} />;
         })}
     </div>
   );
