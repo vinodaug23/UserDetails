@@ -1,0 +1,16 @@
+h1, p {
+  font-family: Lato;
+}
+
+#mainDiv {
+  display: flex;
+}
+
+#image {
+  width: 50%;
+  height: 80%;
+}
+
+#details {
+ padding: 10px 10px 0px 0px;
+}
